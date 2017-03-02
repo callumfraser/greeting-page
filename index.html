@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Greeting page</title>
+    <link rel="stylesheet" href="greet.css">
+  </head>
+
+  <body>
+    <div class="hello">
+      <h1>Welcome to the greeting page</h1>
+    </div>
+
+
+  <div class="input-area">
+     <form id="myForm">
+          Name:<input type="text" class="theName" name="name"><br>
+          <br>
+          <p class="counter">Friends greeted today: 0</p>
+          <div class="lang">
+            <p> Preferred language for your greeting </p>
+            <form class="my2ndForm">
+              <input type="radio" name="language" value="isiXhosa" class="languages"> isiXhosa
+              <input type="radio" name="language" value="english" class="languages"> English
+              <input type="radio" name="language" value="afrikaans" class="languages"> Afrikaans <br>
+          </form>
+        </div>
+          <br>
+          <button type="button" class="theButton">Greet me</button>
+          <button type="button" class="theOtherBut">Reset greeting counter</button>
+    </form>
+   </div>
+
+
+   <div class="output">
+      Your greeting will appear here friend.
+   </div>
+
+
+  </body>
+
+  <script src="greet.js" charset="utf-8"></script>
+
+</html>

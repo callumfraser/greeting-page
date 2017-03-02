@@ -1,0 +1,47 @@
+.hello{
+  text-align: center;
+  height: 150px;
+  background-color: rgba(180, 143, 245, 0.85);
+  padding-top: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.input-area{
+  text-align: center;
+  width: 70%;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 20px;
+  margin: auto;
+  color: white;
+  margin-bottom: 20px;
+}
+.lang{
+  border-style: dotted;
+  border-width: thin;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 15px;
+
+}
+.input-area form{
+  color: red;
+}
+
+.output{
+padding-top: 12px;
+padding-left: 10px;
+padding-right: 10px;
+height: 3em;
+text-align: center;
+width: 40%;
+background-color: red;
+margin: auto;
+}
+
+
+body {
+  padding-top: 40px;
+  background-image: url("hello.gif");
+}
