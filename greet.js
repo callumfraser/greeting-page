@@ -9,8 +9,8 @@ var btn2 = document.querySelector('.theOtherBut');
 if(typeof(localStorage.count)==undefined){
   localStorage.setItem("count",0);
 }
-if (localStorage.count == undefined){
-  jCounter.innerHTML = "Friends greeted today: 0"  
+if (localStorage.count == undefined || NaN){
+  jCounter.innerHTML = "Friends greeted today: 0"
 } else{
   jCounter.innerHTML = "Friends greeted today: " + localStorage.count;
 }
