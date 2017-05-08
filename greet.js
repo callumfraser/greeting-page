@@ -9,8 +9,11 @@ var btn2 = document.querySelector('.theOtherBut');
 if(typeof(localStorage.count)==undefined){
   localStorage.setItem("count",0);
 }
-
-jCounter.innerHTML = "Friends greeted today: " + localStorage.count;
+if (localStorage.count == undefined){
+  jCounter.innerHTML = "Friends greeted today: 0"  
+} else{
+  jCounter.innerHTML = "Friends greeted today: " + localStorage.count;
+}
 
 
 
@@ -40,8 +43,7 @@ namesGreeted[name1.value] = 1;
             jCounter.innerHTML = "Friends greeted today: " + localStorage.count;
           }
         }
-      //   else {greeting.innerHTML = "Select your preferred language"
-      // };
+
       };
       document.getElementById("myForm").reset();
 }

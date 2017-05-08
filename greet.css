@@ -16,6 +16,7 @@
   margin: auto;
   color: white;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 .lang{
   border-style: dotted;
