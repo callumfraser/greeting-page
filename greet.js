@@ -12,6 +12,7 @@ if(localStorage.count==undefined || NaN){
 if (localStorage.count == undefined || NaN){
   jCounter.innerHTML = "Friends greeted today: 0"
 } else{
+  console.log(localStorage.count);
   jCounter.innerHTML = "Friends greeted today: " + localStorage.count;
 }
 
