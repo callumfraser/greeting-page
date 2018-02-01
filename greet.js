@@ -6,6 +6,8 @@ var lang1 = document.getElementsByName('language');
 var namesGreeted = {};
 var btn2 = document.querySelector('.theOtherBut');
 
+localStorage.setItem("count",0);
+
 if(localStorage.count==undefined || NaN){
   localStorage.setItem("count",0);
 }
